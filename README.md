@@ -2,26 +2,26 @@
 
 ![42](https://img.shields.io/badge/42-School-000000?style=flat-square&logo=42&logoColor=white) ![Language](https://img.shields.io/badge/lang-C++98-blue?style=flat-square) ![Status](https://img.shields.io/badge/status-completed-success?style=flat-square)
 
-Modulo C++ 05 de 42: excepciones y flujo de formularios burocraticos.
+42 School C++ module 05: exceptions and bureaucratic form processing flow.
 
 ## Stack
 
 - School: 42
-- Lenguaje principal: C++98
-- Alcance: un repositorio por proyecto
+- Primary language: C++98
+- Scope: one repository per project
 
-## Estructura
+## Structure
 
-| Ejercicio | Ruta | Binario |
+| Exercise | Path | Binary |
 |---|---|---|
 | ex00 | ./ex00 | bureaucrat |
 | ex01 | ./ex01 | forms |
 | ex02 | ./ex02 | aforms |
 | ex03 | ./ex03 | intern |
 
-## Como Ejecutarlo
+## How to Run
 
-Compila y ejecuta cada ejercicio por separado:
+Compile and run each exercise separately:
 
 ### ex00
 
@@ -55,15 +55,15 @@ make
 ./intern
 ~~~
 
-## Pruebas
+## Testing
 
-No se detectaron scripts de testing dedicados en la raiz.
+No dedicated testing scripts were detected at the project root.
 
-## Notas
+## Notes
 
-- Este repositorio forma parte del portfolio de 42.
-- Los comandos estan orientados a ejecucion local para revision y evaluacion.
+- This repository is part of the 42 portfolio.
+- Commands are intended for local execution for review and evaluation.
 
-## Autora
+## Author
 
 anapaulapgavilan
