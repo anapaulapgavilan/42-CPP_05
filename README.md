@@ -4,6 +4,22 @@
 
 42 School C++ module 05: exceptions and bureaucratic form processing flow.
 
+## About This Project
+
+### What It Does
+
+This module simulates a bureaucratic form-signing office: a "Bureaucrat" with a numeric grade signs and executes different kinds of "Form" objects, and every invalid operation throws a custom exception instead of silently failing.
+
+Exercises in this module:
+- ex00: the Bureaucrat class with a bounded grade (1-150) and grade-too-high/too-low exceptions.
+- ex01: an abstract Form base plus a concrete ShrubberyCreationForm, with sign/execute rules based on grade.
+- ex02: an abstract AForm base with three concrete forms (ShrubberyCreationForm, RobotomyRequestForm, PresidentialPardonForm), each with different side effects and grade requirements.
+- ex03: adds an Intern class that can produce the right AForm subclass from a string name, without the caller knowing the concrete type.
+
+### Purpose
+
+It evaluates custom exception classes, abstract base classes with pure virtual methods, and a simple factory pattern, all wired together through a realistic sign/execute workflow.
+
 ## Stack
 
 - School: 42
@@ -20,6 +36,8 @@
 | ex03 | ./ex03 | intern |
 
 ## How to Run
+
+Prerequisites: `make` and a C++98-capable compiler (`g++` or `clang++`).
 
 Compile and run each exercise separately:
 
