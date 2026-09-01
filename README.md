@@ -26,6 +26,16 @@ It evaluates custom exception classes, abstract base classes with pure virtual m
 - Primary language: C++98
 - Scope: one repository per project
 
+## Skills Demonstrated
+
+`Exception handling` | `Abstract base classes` | `Factory pattern`
+
+## Features
+
+- Custom exception classes for every invalid bureaucratic operation
+- Abstract Form hierarchy with concrete forms and grade-based sign/execute rules
+- Intern factory that builds the right form type from a string name
+
 ## Structure
 
 | Exercise | Path | Binary |
