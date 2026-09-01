@@ -36,6 +36,12 @@ It evaluates custom exception classes, abstract base classes with pure virtual m
 - Abstract Form hierarchy with concrete forms and grade-based sign/execute rules
 - Intern factory that builds the right form type from a string name
 
+## Review Focus
+
+- Look for exception paths that report invalid grades and unauthorized execution clearly.
+- Review the AForm hierarchy for clean separation between shared workflow and concrete side effects.
+- Notice the factory-style Intern flow, which converts user-facing names into concrete form objects.
+
 ## Structure
 
 | Exercise | Path | Binary |
