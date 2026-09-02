@@ -42,6 +42,18 @@ It evaluates custom exception classes, abstract base classes with pure virtual m
 - Review the AForm hierarchy for clean separation between shared workflow and concrete side effects.
 - Notice the factory-style Intern flow, which converts user-facing names into concrete form objects.
 
+## Project Deep Dive
+
+CPP_05 models a small permission-based workflow: bureaucrats sign and execute forms only if their grade allows it. That makes exceptions useful instead of decorative, because invalid operations must be reported clearly and consistently.
+
+The later exercises add concrete form subclasses and an Intern factory. This turns the module into a compact example of workflow design: shared validation in the base type, specific behavior in derived forms, and object creation hidden behind a simple interface.
+
+## Implementation Notes
+
+- Encodes grade boundaries and invalid operations as explicit exception paths.
+- Uses abstract form classes to separate common sign/execute rules from concrete side effects.
+- Applies a simple factory approach so callers can request forms by name without knowing subclasses.
+
 ## Structure
 
 | Exercise | Path | Binary |
